@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    /* text-align: center; */
+}
+header{
+  background-color: black;
+  height:75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid black;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+nav span{
+  color: white;
+  padding:20px;
+}
+nav span a{
+  color: white;
+}
+.main .mission{
+  background-image: url("img-mission-background.jpg");
+  background-color:teal;
+  height: 700px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#a, #b{
+  margin: 0;
+  padding: 10px;
+}
+.message , .teas .tea{
+  width: 100%;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
+.item span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+.images{
+  margin: 0;
+  background: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+    color: white;
+    text-align: center;
+}
+.main .locations {
+  background-image:url("img-locations-background.jpg");
+  height:500px;
+
+}
+.main .locations h2{
+  text-align: center;
+  margin: 0;
+}
+.main .location{
+	height:400px;
+  text-align: center;
+	display:flex;
+  flex-basis: 280px;
+	justify-content:space-around;
+	align-items:center;
+}
+.local{
+	display:block;
+	align-text:center;
+}
+.address1,.address2,.address3{
+	color:white;
+	background:black;
+	display:inline-block;
+	align-text:center;
+  flex-basis: 280px;
+  height: 280;
+}
+.h2, .h3, .h4{
+  margin:0px;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+}
+.foot{
+  display:flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-weight: bold;
+  height:200px;
+}
+footer{
+  background: black;
+  color: white;
+  font-weight: bold;
+  height:200px;
+}
+footer #c{
+  float: left;
+  background: black;
+  color: white;
+  font-weight: bold;
+  width:100%;
+}
